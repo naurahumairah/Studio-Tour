@@ -490,7 +490,7 @@ section#gallery div img:hover {
 	transform: scale(1.1);
 }
 #login {
-    background: url('/LatihanDasar/UTS/login.jpg') no-repeat center center fixed; 
+    background: url('login.jpg') no-repeat center center fixed; 
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -605,7 +605,7 @@ section#gallery div img:hover {
     text-decoration: underline;
 }
 section.quote {
-	background: url('/LatihanDasar/UTS/Hogwarts-Express.jpg') no-repeat;
+	background: url('Hogwarts-Express.jpg') no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
