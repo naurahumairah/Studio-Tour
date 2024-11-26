@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harry Potter Studio Tour</title>
+    <link rel="stylesheet" href="UTS_Naurah_027.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/LatihanDasar/logoUTS/favicon.ico">
+  </head>
+  <body>
+    <nav>
+      <div class="layar-dalam">
+        <div class="logo">
+          <a href=""><img src="/LatihanDasar/UTS/HPwhite.png" class="putih" /></a>
+          <a href=""><img src="/LatihanDasar/UTS/HPwhite.png" class="hitam" /></a>
+        </div>
+        <div class="menu">
+          <a href="#" class="tombol-menu">
+            <span class="garis"></span>
+            <span class="garis"></span>
+            <span class="garis"></span>
+          </a>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#login">Registration</a></li>
+            <li><a href="#blog">Article</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="layar-penuh">
+      <header id="home">
+        <div class="overlay"></div>
+        <video autoplay muted loop>
+          <source src="/LatihanDasar/UTS/HPvid.mp4" type="video/mp4" />
+        </video>
+        <div class="intro">
+          <h3>Harry Potter Studio Tour</h3>
+          <p>
+            An interactive tour at Warner Bros. Studios, London, showcasing original sets, costumes, and props from the Harry Potter films.
+          </p>
+          <p>
+            <a href="" class="tombol">MORE INFO</a>
+          </p>
+        </div>
+      </header>
+      <main>
+        <section id="aboutus">
+          <div class="layar-dalam">
+            <h2>About Us</h2>
+            <h3>Experience Your Own Magical World</h3>
+            <p>
+            Step into a magical world at the Harry Potter Studio Tour, exploring iconic sets, authentic props, and enchanting behind-the-scenes experiences.
+            </p>
+            <p>
+            Experience Your Own Magical World with the Harry Potter Studio Tour, where fans can step into the enchanting universe of the beloved film series. Hosted at Warner Bros. Studio in London, this interactive experience offers visitors a unique opportunity to explore iconic sets like the Great Hall and Diagon Alley, view original costumes and props, and learn about the spellbinding special effects and animatronics used in the movies. From seasonal events like Hogwarts in the Snow to exclusive dining experiences in the Great Hall, the tour brings the magic to life for fans of all age.
+            </p>
+            <p>
+            While we’re always discovering new magic, trust us when we say our Studio Tour reveals secrets more captivating than a Pensieve’s memory.
+            </p>
+          <a href="#" class="btn-learn-more">Learn More</a>
+          </div>
+        </section>
+        <section class="quote">
+          <div class="layar-dalam">
+            <p>Harry Potter Studio Tour was an amazing place to visit. it's giving you the real vibes of harry potter movies, feels like you're in the movie.</p>
+          </div>
+        </section>
+        <section id="gallery">
+          <div><img src="/LatihanDasar/UTS/g2.jpg"></div>
+          <div><img src="/LatihanDasar/UTS/g3.jpg"></div>
+          <div><img src="/LatihanDasar/UTS/g4.jpg"></div>
+          <div><img src="/LatihanDasar/UTS/g5.jpg"></div>
+          <div><img src="/LatihanDasar/UTS/g6.jpg"></div>
+          <div><img src="/LatihanDasar/UTS/g8.jpg"></div>
+          <div><img src="/LatihanDasar/UTS/g77.jpg"></div>
+        </section>
+        <section id="login">
+          <div class="layar-dalam">
+            <div class="login-wrapper">
+              <h2>Login to Get Your Ticket!</h2>
+              <form id="login-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required placeholder="Enter your username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                </div>
+                <div class="options">
+                    <div>
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn-login">Login</button>
+                <p class="register-link">Don't have an account? <a href="#">Register</a></p>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section id="blog">
+          <div class="layar-dalam">
+            <h2>Latest Articles</h2>
+            <div class="article-container">
+            <!-- Article 1 -->
+              <article class="article">
+                  <h3><a href="https://www.wizardingworld.com/" target="_blank">The Magic Behind the Harry Potter Studio Tour</a></h3>
+                  <p class="preview">Discover the secrets of Hogwarts, the making of the Forbidden Forest, and the story behind the magic...</p>
+                  <button class="btn-readmore" onclick="showFullArticle(1)">Read More</button>
+                  <p class="full-article hidden" id="full-article-1">
+                    Dive deeper into the magical world of Harry Potter with an exclusive behind-the-scenes look at how the iconic films were brought to life. Explore authentic sets, costumes, and props that immerse fans in the Wizarding World.
+                  </p>
+              </article>
+
+            <!-- Article 2 -->
+              <article class="article">
+                  <h3><a href="https://www.pottermore.com/" target="_blank">A Journey Through Diagon Alley</a></h3>
+                  <p class="preview">Step into the cobblestone streets of Diagon Alley and uncover the hidden shops of the Wizarding World...</p>
+                  <button class="btn-readmore" onclick="showFullArticle(2)">Read More</button>
+                  <p class="full-article hidden" id="full-article-2">
+                    From Ollivanders to Weasleys' Wizard Wheezes, experience the charm of Diagon Alley. Learn about the intricate design and how the magical atmosphere was created for the Harry Potter films.
+                  </p>
+              </article>
+
+            <!-- Article 3 -->
+              <article class="article">
+                  <h3><a href="https://www.harrypotterthetour.com/" target="_blank">Exploring the Hogwarts Express</a></h3>
+                  <p class="preview">Board the famous Hogwarts Express and relive your favorite scenes from the Harry Potter movies...</p>
+                  <button class="btn-readmore" onclick="showFullArticle(3)">Read More</button>
+                  <p class="full-article hidden" id="full-article-3">
+                    Take a closer look at the iconic train that carried Harry and his friends to Hogwarts. Learn about its real-life history and how it was transformed into a symbol of magical journeys.
+                  </p>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="abuabu" id="support">
+          <div class="layar-dalam support">
+            <h3>How can we help you?</h3>
+
+            <div class="support-options">
+              <div class="option">
+                <h4>FAQ</h4>
+                <p>Find answers to frequently asked questions.</p>
+                <a href="#" class="btn-support">Go to FAQ</a>
+              </div>
+              <div class="option">
+                <h4>Contact Support</h4>
+                <p>If you need further assistance, reach out to our support team.</p>
+                <a href="#" class="btn-support">Contact Support</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+      </main>
+      <footer id="contact">
+        <div class="layar-dalam">
+          <div>
+            <h5>Email us</h5>
+            Questions about Hogwarts, Diagon Alley, or beyond? Contact us at info@harrypotterstudio.com for assistance.
+          </div>
+          <div>
+            <h5>Social media</h5>
+            Join the conversation and share your magical moments with us on social media!
+            <ul class="nav-list">
+              <a href="https://www.facebook.com/wbtourlondon">Facebook</a></li><br>
+              <a href="https://www.instagram.com/wbtourlondon/">Instagram</a></li><br>
+              <a href="https://x.com/wbtourlondon">Twitter</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Form contact</h5>
+            Share your feedback or suggestions with us as we continue to make your visit to the wizarding world unforgettable.
+            <form>
+              <label for="name">Name:</label><br>
+              <input type="text" name="Name" id="name" placeholder="Enter your name"><br>
+              <label for="email">Email:</label><br>
+              <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+              <label for="message">Message:</label><br>
+              <input type="message" name="message" id="message" placeholder="Enter your message"><br><br>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+        <div class="layar-dalam">
+          <div class="copyright">
+            &copy;2024 Warner Bros Studio London
+            & design by Naurah H.<br>
+            <ul class="nav-list">
+              <a href="https://www.wbstudiotour.co.uk/">Warner Bros Studio London Official</a></li><br>
+            </div>
+        </div>
+      </footer>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="UTS_Naurah_027.js"></script>
+</body>
+</html>
